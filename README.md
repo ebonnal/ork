@@ -11,11 +11,11 @@
 ```python
 >>> from ork.namegen import NameGenerator
 >>> NameGenerator.generate(faction_name="orks", lang="en")
-Snarkrat Wurldkilla
+'Snarkrat Wurldkilla'
 >>> NameGenerator.generate(faction_name="orks", lang="fr")
-Droknog Botte lé Fess'
+"Droknog Botte lé Fess'"
 >>> NameGenerator.generate(faction_name="space wolves", lang="en")
-Berek Wyrdfang
+'Berek Wyrdfang'
 >>> NameGenerator.generate(faction_name="space wolves", lang="fr")
-Leif Le Berserk
+'Leif Le Berserk'
 ```
