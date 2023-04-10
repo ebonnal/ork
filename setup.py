@@ -9,5 +9,5 @@ setup(
     license='Apache 2.',
     author='bonnal-enzo',
     author_email='bonnal.enzo.dev@gmail.com',
-    description='Warhammer 40k tool box'
+    description='Toolbox for Warhammer 40k'
 )
