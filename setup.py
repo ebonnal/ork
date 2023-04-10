@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     name='ork',
-    version='0.0.1',
+    version='0.0.2',
     packages=['ork'],
     package_data={"ork": ["*.json"]},
     url='http://github.com/bonnal-enzo/ork',
     license='Apache 2.',
-    author='Enzo Bonnal',
-    author_email='enzobonnal@gmail.com',
+    author='bonnal-enzo',
+    author_email='bonnal.enzo.dev@gmail.com',
     description='Warhammer 40k tool box'
 )

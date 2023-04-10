@@ -4,18 +4,28 @@
 
 ## Install
 
-`pip3 install ork`
+`python -m pip install ork`
 
 ## Usage
 
 ```python
->>> from ork.namegen import NameGenerator
->>> NameGenerator.generate(faction_name="orks", lang="en")
+>>> from ork import 
+>>> ng = NameGenerator()
+>>> ng.generate(faction="orks", lang="en")
 Snarkrat Wurldkilla
->>> NameGenerator.generate(faction_name="orks", lang="fr")
+>>> ng.generate(faction="orks", lang="fr")
 Droknog Botte lé Fess'
->>> NameGenerator.generate(faction_name="space wolves", lang="en")
+>>> ng.generate(faction="space wolves", lang="en")
 Berek Wyrdfang
->>> NameGenerator.generate(faction_name="space wolves", lang="fr")
+>>> ng.generate(faction="space wolves", lang="fr")
 Leif Le Berserk
+```
+
+## Dev
+
+```bash
+python -m venv .venv
+source ./.venv/bin/activate
+python -m pip install -r requirements.txt
+python -m unittest
 ```

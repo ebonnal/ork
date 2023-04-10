@@ -1,1 +1,1 @@
-
+from .namegen import NameGenerator
