@@ -4,12 +4,12 @@
 
 ## Install
 
-`python -m pip install ork`
+`pip install ork`
 
 ## Usage
 
 ```python
->>> from ork import 
+>>> from ork import NameGenerator
 >>> ng = NameGenerator()
 >>> ng.generate(faction="orks", lang="en")
 'Snarkrat Wurldkilla'
